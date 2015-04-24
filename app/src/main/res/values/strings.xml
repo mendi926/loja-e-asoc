@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Loja e asoc.</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="prev">&lt;</string>
+    <string name="next">&gt;</string>
+
+    <string name="rundi">ASOC.</string>
+    <string name="pik">PIKËT</string>
+
+    <string name="turn">Në rradhë:</string>
+    <string name="lastmove">Lëvizja e fundit:</string>
+
+    <string name="a1">A1</string>
+    <string name="a2">A2</string>
+    <string name="a3">A3</string>
+    <string name="a4">A4</string>
+    <string name="a">ZGJIDHJA A</string>
+    <string name="b1">B1</string>
+    <string name="b2">B2</string>
+    <string name="b3">B3</string>
+    <string name="b4">B4</string>
+    <string name="b">ZGJIDHJA B</string>
+    <string name="c1">C1</string>
+    <string name="c2">C2</string>
+    <string name="c3">C3</string>
+    <string name="c4">C4</string>
+    <string name="c">ZGJIDHJA C</string>
+    <string name="d1">D1</string>
+    <string name="d2">D2</string>
+    <string name="d3">D3</string>
+    <string name="d4">d4</string>
+    <string name="d">ZGJIDHJA D</string>
+    <string name="rez">ZGJIDHJA PËRF.</string>
+    <string name="zgjidhjaa">Zgjidhja A</string>
+    <string name="zgjidhjab">Zgjidhja B</string>
+    <string name="zgjidhjac">Zgjidhja C</string>
+    <string name="zgjidhjad">Zgjidhja D</string>
+    <string name="zgjidhjarez">Zgjidhja Përf.</string>
+    <string name="threedots">...</string>
+    <string name="zgjidhnumer">Zgjidh asociacionin me numër:</string>
+</resources>

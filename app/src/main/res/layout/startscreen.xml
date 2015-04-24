@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/foreground3"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/separator"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginBottom="50dp"/>
+
+
+        <TextView
+            android:id="@+id/text_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fbutton_color_peter_river"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textSize="26sp"
+            android:visibility="visible"
+            />
+
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/offline_butt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Luaj Offline"
+            android:textColor="@color/fbutton_color_clouds"
+            fbutton:buttonColor="@color/fbutton_color_peter_river"
+            fbutton:shadowColor="#2980b9"
+            fbutton:cornerRadius="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="150dp"
+
+            />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/online_butt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Luaj Online"
+            android:textColor="@color/fbutton_color_clouds"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="35dp"
+            fbutton:buttonColor="@color/fbutton_color_peter_river"
+            fbutton:shadowColor="#2980b9"
+            fbutton:cornerRadius="1dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="Offline.MainActivityOff">
+    >
+
+
+
+    <item
+        android:id="@+id/zgjidhja_a"
+        android:title="@string/zgjidhjaa"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/zgjidhja_b"
+        android:title="@string/zgjidhjab"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/zgjidhja_c"
+        android:title="@string/zgjidhjac"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/zgjidhja_d"
+        android:title="@string/zgjidhjad"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/zgjidhja_rez"
+        android:title="@string/zgjidhjarez"
+        app:showAsAction="never" />
+</menu>

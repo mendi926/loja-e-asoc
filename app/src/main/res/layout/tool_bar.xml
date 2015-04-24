@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.Toolbar
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/ColorPrimary"
+    android:paddingTop="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:visibility="gone"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fbutton_color_clouds"
+        android:text="@string/rundi"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-light"
+
+        />
+
+    <TextView
+        android:id="@+id/round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fbutton_color_clouds"
+        android:fontFamily="sans-serif-light"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+        >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbutton_color_clouds"
+                android:text="@string/pik"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-light"
+
+                />
+
+            <TextView
+                android:id="@+id/points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbutton_color_clouds"
+                android:fontFamily="sans-serif-light"
+
+                />
+        </LinearLayout>
+
+
+
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/prev"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:text="@string/prev"
+                android:textSize="14sp"
+                android:textColor="@color/fbutton_color_peter_river"
+                fbutton:buttonColor="@color/fbutton_color_clouds"
+                fbutton:shadowColor="@color/fbutton_color_peter_river"
+                fbutton:cornerRadius="20dp"
+                android:layout_alignRight="@+id/selectquest"
+                android:layout_alignEnd="@+id/selectquest"
+                android:layout_marginRight="50dp"
+                android:layout_marginEnd="50dp"
+                />
+
+
+            <info.hoang8f.widget.FButton
+            android:id="@+id/selectquest"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="@string/threedots"
+            android:textSize="14sp"
+            android:textColor="@color/fbutton_color_peter_river"
+            fbutton:buttonColor="@color/fbutton_color_clouds"
+            fbutton:shadowColor="@color/fbutton_color_peter_river"
+            fbutton:cornerRadius="20dp"
+
+            android:layout_alignRight="@+id/next"
+            android:layout_alignEnd="@+id/selectquest"
+            android:layout_marginRight="50dp"
+            android:layout_marginEnd="50dp"
+
+            />
+
+
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/next"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:text="@string/next"
+                android:textSize="14sp"
+                android:textColor="@color/fbutton_color_peter_river"
+                fbutton:buttonColor="@color/fbutton_color_clouds"
+                fbutton:shadowColor="@color/fbutton_color_peter_river"
+                fbutton:cornerRadius="20dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

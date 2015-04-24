@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="question1">
+        <item>ÇADRA</item>
+        <item>SICILIANE</item>
+        <item>AVOKATI</item>
+        <item>MASKA</item>
+        <item>MBROJTJA</item>
+        <item>PARA</item>
+        <item>AS</item>
+        <item>GAZETË</item>
+        <item>BOKSI</item>
+        <item>LETËR</item>
+        <item>MI</item>
+        <item>5</item>
+        <item>SI</item>
+        <item>MESATARE</item>
+        <item>NOTA</item>
+        <item>QYTETI</item>
+        <item>BURSA</item>
+        <item>KONVIKTI</item>
+        <item>PROVIMI</item>
+        <item>STUDENTI</item>
+        <item>DIPLOMA</item>
+    </string-array>
+
+    <string-array name="question2">
+        <item>FAREFISI</item>
+        <item>RREZJA</item>
+        <item>KOMUNIKACION</item>
+        <item>EKUATORI</item>
+        <item>RRETHI</item>
+        <item>I BARDHË</item>
+        <item>I ZI</item>
+        <item>VERA</item>
+        <item>HAMBURG</item>
+        <item>RRUSHI</item>
+        <item>RRUGORE</item>
+        <item>SHUMËZIMI</item>
+        <item>AUTOMOBILI</item>
+        <item>SHKUMËSI</item>
+        <item>TABELA</item>
+        <item>USHQIMORE</item>
+        <item>FSHESA</item>
+        <item>RECIKLIMI</item>
+        <item>HEDHJA</item>
+        <item>MBETURINA</item>
+        <item>KOSHI</item>
+    </string-array>
+
+
+</resources>

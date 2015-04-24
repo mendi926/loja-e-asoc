@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.Toolbar
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/ColorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:visibility="gone"
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/radha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbutton_color_clouds"
+                android:text="@string/turn"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-light"
+
+                />
+
+            <TextView
+                android:id="@+id/turnon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbutton_color_clouds"
+                android:fontFamily="sans-serif-light"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="100dp"
+            >
+            <TextView
+
+                android:id="@+id/levizja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbutton_color_clouds"
+                android:text="@string/lastmove"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-light"
+
+                />
+
+            <TextView
+                android:id="@+id/lastmoveon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbutton_color_clouds"
+                android:fontFamily="sans-serif-light"
+
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/countDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fbutton_color_clouds"
+            android:fontFamily="sans-serif-light"
+            android:text="60"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30sp"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

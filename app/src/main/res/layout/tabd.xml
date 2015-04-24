@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    >
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d1"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:id="@+id/d1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d2"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:id="@+id/d2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d3"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:id="@+id/d3"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d4"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:id="@+id/d4"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="true"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/d"
+        android:padding="15dp"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:id="@+id/d"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textCapCharacters|textNoSuggestions"
+        android:imeOptions="actionDone"
+        />
+
+</LinearLayout>
